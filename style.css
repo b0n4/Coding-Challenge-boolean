@@ -1,0 +1,79 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background-image: url("img/background.jpg");
+    background-size: cover;
+}
+
+main{
+    color: white;
+}
+
+.contenitore{
+    padding: 80px 100px;
+    margin: 50px 350px;
+    background-color: rgba(0, 0, 0, 0.358);
+    border-radius: 15px;
+}
+
+header,nav{
+    text-align: center;
+}
+
+header>div{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0,218,51);
+}
+
+header>img{
+    height: 100px;
+}
+
+nav{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(100,218,65);
+
+}
+nav>button{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+section{
+    margin-top: 20px;
+}
+
+
+
+.freccia::after{
+    content: "\27FC";
+}
+
+section>.monopattino{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.stato{
+    height: 20px;
+    border-radius: 3px;
+}
+
+#media{
+    margin-right: 700px;
+    background-color:rgb(235, 183,100);
+}
+
+#carica{
+    margin-right: 500px;
+    background-color: rgb(92, 192, 64);
+}
+
+#bassa{
+    margin-right: 900px;
+    background-color:rgb(176, 74,70);
+}
