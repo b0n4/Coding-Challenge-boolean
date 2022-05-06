@@ -64,16 +64,16 @@ section>.monopattino{
 }
 
 #media{
-    margin-right: 700px;
+    width: 30%;
     background-color:rgb(235, 183,100);
 }
 
 #carica{
-    margin-right: 500px;
+    width: 70%;
     background-color: rgb(92, 192, 64);
 }
 
 #bassa{
-    margin-right: 900px;
+    width: 15%;
     background-color:rgb(176, 74,70);
 }
